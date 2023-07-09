@@ -199,3 +199,20 @@ def train_test_validation_split(all_images,all_labels):
     return X_train, X_val, X_test, y_train, y_val, y_test
 
 
+#thresholding Image
+def thresholding_image(image):
+    
+    threshold_image = threshold_otsu(image)
+    return threshold_image
+
+#binarizing image
+def binarizing_image(image):
+    
+    binary_image = image > thresholding_image(image)
+    return binary_image
+
+#filling image, best results are based on a binarized image
+def fill_image(image):
+    
+    filled_image = binary_fill_holes(image)
+    return filled_image
