@@ -119,7 +119,6 @@ class index,filepaths,labels,card type,data set
 0,train/ace of clubs/118.jpg,ace of clubs,ace,train
 0,train/ace of clubs/119.jpg,ace of clubs,ace,train
 0,train/ace of clubs/120.jpg,ace of clubs,ace,train
-0,train/ace of clubs/output,ace of clubs,ace,train
 1,train/ace of diamonds/001.jpg,ace of diamonds,ace,train
 1,train/ace of diamonds/002.jpg,ace of diamonds,ace,train
 1,train/ace of diamonds/003.jpg,ace of diamonds,ace,train
